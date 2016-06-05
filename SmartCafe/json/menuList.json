@@ -1,0 +1,160 @@
+{
+  "menu": {
+    "category":{
+    "vegstarters": [
+        {
+            "name":"Mix Grill Veg",
+            "price":"120"
+        },
+        {
+            "name":"Paneer Tikka",
+            "price":"120"
+        },
+        {
+            "name":"Pudina Paneer Tikka",
+            "price":"120"
+        },
+        {
+            "name":"Achari Paneer Tikka",
+            "price":"120"
+        },
+        {
+            "name":"Veg Seekh Kabab",
+            "price":"120"
+        },
+        {
+            "name":"Soya Chaap",
+            "price":"120"
+        }
+    ],
+	"nonvegstarters": [
+        {
+            "name":"Mix Grill Non-Veg",
+            "price":"120"
+        },
+        {
+            "name":"Tandoori Chicken",
+            "price":"120"
+        },
+        {
+            "name":"Afgani Chicken",
+            "price":"120"
+        },
+        {
+            "name":"Chicken Tikka",
+            "price":"120"
+        },
+        {
+            "name":"Achari Chicken Tikka",
+            "price":"120"
+        },
+        {
+            "name":"Chicken Bura",
+            "price":"120"
+        }
+    ],
+	"vegmaincourse": [
+        {
+            "name":"Shahi Panner",
+            "price":"120"
+        },
+        {
+            "name":"Kadhai Panner",
+            "price":"120"
+        },
+        {
+            "name":"Dal Makhni",
+            "price":"120"
+        },
+        {
+            "name":"Chana Masala",
+            "price":"120"
+        },
+        {
+            "name":"Muttor Mashroom",
+            "price":"120"
+        },
+        {
+            "name":"Palak Paneer",
+            "price":"120"
+        }
+    ],
+	"nonvegmaincourse": [
+        {
+            "name":"Butter Chicken",
+            "price":"120"
+        },
+        {
+            "name":"Kadhai Chicken",
+            "price":"120"
+        },
+        {
+            "name":"Chicken Curry",
+            "price":"120"
+        },
+        {
+            "name":"Chicken Korma",
+            "price":"120"
+        },
+        {
+            "name":"Achari Chicken Chilli",
+            "price":"120"
+        },
+        {
+            "name":"Chicken Burji",
+            "price":"120"
+        }
+    ],
+	"bread": [
+        {
+            "name":"Laccha Paratha",
+            "price":"20"
+        },
+        {
+            "name":"Plain Roti",
+            "price":"20"
+        },
+        {
+            "name":"Butter Roti",
+            "price":"20"
+        },
+        {
+            "name":"Missi Roti",
+            "price":"20"
+        },
+        {
+            "name":"Plain Naan",
+            "price":"20"
+        },
+        {
+            "name":"Butter Naan",
+            "price":"20"
+        }
+    ],
+	"sidder": [
+        {
+            "name":"Boondi Raita",
+            "price":"120"
+        },
+        {
+            "name":"Pineapple Raita",
+            "price":"120"
+        },
+        {
+            "name":"Masala Papad",
+            "price":"120"
+        },
+        {
+            "name":"Chaach",
+            "price":"120"
+        },
+        {
+            "name":"Icecream",
+            "price":"120"
+        },
+        {
+            "name":"Plain Papad",
+            "price":"120"
+        }
+    ]
+}}}
