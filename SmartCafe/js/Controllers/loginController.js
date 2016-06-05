@@ -7,20 +7,21 @@ function loginController($scope, $rootScope, $http, $location, SessionKeeper) {
 	$scope.userName = {};
 	$scope.userData = null;
 	$scope.errorStatus = false;
-
+	
 	$scope.loginEvent = function(){
 		console.log("User Name::"+$scope.userName.user);
+		$location.path('/menu');
 		/*$http.post('http://10.13.48.2:8080/getUser',$scope.userName)
 			.then(function(response) {
 				console.log(response);
 				$scope.userData = response.data;
 				 console.log("Type::"+$scope.userData.type+" Id::"+$scope.userName.user);
 				 if($scope.userData.type == 'employee') {
-					 $location.path('/menu');
+					 $location.path('/menu'); 
 					console.log("Logging in...User");
 				 }
 				 if($scope.userData.type == 'vendor') {
-					 $location.path('/orderDetail');
+					 $location.path('/orderDetail'); 
 					console.log("Logging in...Vendor");
 				 }
 				 $rootScope.current = {};
@@ -30,13 +31,8 @@ function loginController($scope, $rootScope, $http, $location, SessionKeeper) {
 			.catch(function(response){
 				$scope.errorStatus = true;
 			});*/
-			if($scope.userName.user === "admin"){
-				$location.path('/menu');
-				console.log("Logging in....user");
-			}
-			else if($scope.userName.user === "vendor"){
-				$location.path('/orderDetail');
-				console.log("Logging in....vendor");
-			}
+			
 	};
+	
+	
 }

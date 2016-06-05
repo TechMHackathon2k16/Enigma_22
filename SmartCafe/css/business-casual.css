@@ -40,6 +40,7 @@ hr {
 .address-bar {
     display: none;
 }
+.border-right{border-right:1px solid #ccc;}
 
 .navbar-brand {
     text-transform: uppercase;
@@ -111,8 +112,11 @@ footer p {
     margin: 0;
     padding: 50px 0;
 }
-
+@media screen and (max-width:768px){
+	.border-right{border-right:none;}
+}
 @media screen and (min-width:768px) {
+
     .brand {
         display: inherit;
         margin: 0;
@@ -192,6 +196,11 @@ footer p {
         clear: both;
     }
 }
+.checkbox input[type="checkbox"]{
+	position:initial;
+	margin-left: -14px;
+
+}
 .checkbox {
   padding-left: 20px; }
   .checkbox label {
@@ -201,11 +210,13 @@ footer p {
     .checkbox label::before {
       content: "";
       display: inline-block;
-      position: absolute;
+      /*position: absolute;*/
+	  vertical-align: middle;
       width: 17px;
       height: 17px;
       left: 0;
       margin-left: -20px;
+	  margin-right: 12px;
       border: 1px solid #cccccc;
       border-radius: 3px;
       background-color: #fff;
@@ -247,22 +258,6 @@ footer p {
 		margin-left:265px !important;
 	}
 	}
-  .textB{
-    color:brown;
-  }
-  @media screen and (max-width:480px){
-  .btn-block1 {
-    display: block;
-    width: 100%;
-  }}
-  .marB60{
-    margin-bottom:60px;
-  }
-
-  @media screen and (min-width:480px){
-  .w250p{width:250px ;}
-  }
-  @media screen and (min-width:980px){
-    .dTop150{
-    margin-top:150px
+  .text-align {
+    text-align: center;
   }

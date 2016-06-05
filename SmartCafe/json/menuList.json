@@ -1,160 +1,230 @@
-{
-  "menu": {
-    "category":{
+{"menu": {"category":{
     "vegstarters": [
         {
+            "itemId": "11",
             "name":"Mix Grill Veg",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "12",
             "name":"Paneer Tikka",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "13",
             "name":"Pudina Paneer Tikka",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "14",
             "name":"Achari Paneer Tikka",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "15",
             "name":"Veg Seekh Kabab",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "16",
             "name":"Soya Chaap",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         }
     ],
 	"nonvegstarters": [
         {
+            "itemId": "17",
             "name":"Mix Grill Non-Veg",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "18",
             "name":"Tandoori Chicken",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "19",
             "name":"Afgani Chicken",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "20",
             "name":"Chicken Tikka",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "21",
             "name":"Achari Chicken Tikka",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "22",
             "name":"Chicken Bura",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         }
     ],
 	"vegmaincourse": [
         {
+            "itemId": "23",
             "name":"Shahi Panner",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "24",
             "name":"Kadhai Panner",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "25",
             "name":"Dal Makhni",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "26",
             "name":"Chana Masala",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "27",
             "name":"Muttor Mashroom",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "28",
             "name":"Palak Paneer",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         }
     ],
 	"nonvegmaincourse": [
         {
+            "itemId": "29",
             "name":"Butter Chicken",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "30",
             "name":"Kadhai Chicken",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "31",
             "name":"Chicken Curry",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "32",
             "name":"Chicken Korma",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "33",
             "name":"Achari Chicken Chilli",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "34",
             "name":"Chicken Burji",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         }
     ],
 	"bread": [
         {
+            "itemId": "35",
             "name":"Laccha Paratha",
-            "price":"20"
+            "price":"20",
+            "quantity": "1"
         },
         {
+            "itemId": "36",
             "name":"Plain Roti",
-            "price":"20"
+            "price":"20",
+            "quantity": "1"
         },
         {
+            "itemId": "36",
             "name":"Butter Roti",
-            "price":"20"
+            "price":"20",
+            "quantity": "1"
         },
         {
+            "itemId": "37",
             "name":"Missi Roti",
-            "price":"20"
+            "price":"20",
+            "quantity": "1"
         },
         {
+            "itemId": "38",
             "name":"Plain Naan",
-            "price":"20"
+            "price":"20",
+            "quantity": "1"
         },
         {
+            "itemId": "39",
             "name":"Butter Naan",
-            "price":"20"
+            "price":"20",
+            "quantity": "1"
         }
     ],
 	"sidder": [
         {
+            "itemId": "40",
             "name":"Boondi Raita",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "41",
             "name":"Pineapple Raita",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "42",
             "name":"Masala Papad",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "43",
             "name":"Chaach",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "44",
             "name":"Icecream",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         },
         {
+            "itemId": "45",
             "name":"Plain Papad",
-            "price":"120"
+            "price":"120",
+            "quantity": "1"
         }
     ]
 }}}

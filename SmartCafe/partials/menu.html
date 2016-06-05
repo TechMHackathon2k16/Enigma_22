@@ -1,95 +1,105 @@
 <mobo-header></mobo-header>
-   <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <!-- button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button -->
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="#/login">Mobo Cafe</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<!-- button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button -->
+			<!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+			<a class="navbar-brand" href="#/login">SMART Cafe</a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
 
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-		<div class="text-center row">
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container -->
+</nav>
 
-            <p style="padding:5px;" class="box">Welcome Khal Drogo</p>
-
-			 </div>
 <div class="row">
-            <div class="box">
-                <div class="col-lg-12 text-center">
-                    <div id="carousel-example-generic" class="carousel slide">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators hidden-xs">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
+	<div class="box">
+		<div class="col-lg-12 text-center">
+			<div id="carousel-example-generic" class="carousel slide">
+				<!-- Indicators -->
+				<ol class="carousel-indicators hidden-xs">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol>
 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
-                            </div>
-                        </div>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+					</div>
+					<div class="item">
+						<img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+					</div>
+					<div class="item">
+						<img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+					</div>
+				</div>
 
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="icon-prev"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="icon-next"></span>
-                        </a>
-                    </div>
-                    <h2 class="brand-before textB">
-                        <small class="textB">Welcome to</small>
-                    </h2>
-                    <h1 class="brand-name">MOBO CAFE</h1>
-                    <hr class="tagline-divider">
-                    <h2>
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+					<span class="icon-prev"></span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+					<span class="icon-next"></span>
+				</a>
+			</div>
+			<h2 class="brand-before textB">
+				<small class="textB">Welcome to</small>
+			</h2>
+			<h1 class="brand-name">SMART CAFE</h1>
+			<hr class="tagline-divider">
+			<h2>
 
-                           <small> <strong class="textB">Cafe At Your Service</strong>
-                        </small>
-                    </h2>
-                </div>
-            </div>
+				   <small> <strong class="textB">Cafe At Your Service</strong>
+				</small>
+			</h2>
+		</div>
+	</div>
         </div>
 
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center textB"><strong>Welcome to TuckShop</strong>
+                    <h2 class="intro-text text-center textB"><strong>Starters</strong>
                     </h2>
                     <hr>
-					<div class="col-lg-12">
-                    <img class="img-responsive img-border " src="img/Tuckshop.jpg" alt="">
+					<div class="col-lg-12" style="padding-bottom:35px;">
+                    <img width="330px" height="230px" class="img-responsive img-border " src="img/starter.jpg" alt="">
 					</div>
                     <hr class="visible-xs">
                      <div class="col-lg-12">
-                         <div  class="col-lg-4" id="Parathas" >
-                                    <h4>Paratha Gully</h4>
-                                    <ul style="text-align:left !important">
-                                        <li class="checkbox checkbox-success" ng-repeat="item in menuData.itemList" ng-if="item.shopName == 'tuckshop'">
-                                            <input type="checkbox" id={{item.itemId}} ng-model="item.checkbox" ng-change="checkboxSelectionEvent(item)" ng-value="item.itemId">
-                                                <label for="{{item.itemId}}">{{item.itemName}} | {{item.price}}|{{item.itemId}}</label>
+                         <div  class="col-lg-6" id="veg-starter" >
+                                    <h4>Veg Section</h4>
+                                    <ul class="border-right" style="text-align:left !important;padding-left:0px;">
+                                        <li class="checkbox checkbox-success" ng-repeat="item in menuData.menu.category.vegstarters">
+                                            <input type="checkbox" id="{{item.name}}" ng-model="item.checkState" ng-change="abc(item)" value="{{item.price}}">
+                                                <label for="{{item.name}}"><span>{{item.name}}</span></label>
+												<span style="float:right;padding-right:50px;">{{item.price | currency: 'Rs '}}</span>
                                         </li>
                                     </ul>
                         </div>
+						<hr class="visible-xs">
+                         <div  class="col-lg-6" id="nonveg-starter">
+                                    <h4>Non-Veg Section</h4>
+                                    <ul style="text-align:left !important;padding-left:0px;">
+                                        <li class="checkbox checkbox-success" ng-repeat="item in menuData.menu.category.nonvegstarters">
+                                            <input type="checkbox" id="{{item.name}}" ng-model="item.checkState" ng-change="abc(item)" value="item.price">
+                                            <label for="{{item.name}}">{{item.name}}</label>
+											<span style="float:right;padding-right:50px;">{{item.price | currency: 'Rs '}}</span>
+                                        </li>
+                                    </ul>
+                        </div>
+
+
 
                     </div>
 
@@ -101,46 +111,79 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center textB"><strong>Welcome to JuiceShop</strong>
+                    <h2 class="intro-text text-center textB"><strong>Main Course</strong>
                     </h2>
                     <hr>
-                    <img class="img-responsive img-border " src="img/juice.jpg" alt="">
-                    <hr class="visible-xs">
+										<div style="padding-bottom:35px;">
+                    <img class="img-responsive img-border " width="330px" height="230px" src="img/maincourse.png" alt="maincourse images">
+									</div>
+										<hr class="visible-xs">
                        <div class="col-lg-12">
-
-
-                                    <div  class="col-lg-4" id="juice" >
-                                    <h4>Juices</h4>
-                                    <ul style="text-align:left !important">
-                                        <li class="checkbox checkbox-success" ng-repeat="item in menuData" ng-if="item.shopName == 'JuiceShop'">
-                                            <input type="checkbox" id={{item.itemId}} ng-model="item.checkbox" ng-change="checkboxSelectionEvent(item)" ng-value="item.itemId">
-                                                <label for="{{item.itemId}}">{{item.itemName}} | {{item.price}} | {{item.itemId}}</label>
+                         <div  class="col-lg-6" id="veg-maincourse" >
+                                    <h4>Veg Section</h4>
+                                    <ul style="text-align:left !important;padding-left:0px;border-right:1px solid #ccc">
+                                        <li class="checkbox checkbox-success" ng-repeat="item in menuData.menu.category.vegmaincourse">
+                                            <input type="checkbox" id="{{item.name}}" ng-model="item.checkState" ng-change="abc(item)">
+                                                <label for="{{item.name}}"><span>{{item.name}}</span></label>
+												<span style="float:right;padding-right:50px;">{{item.price | currency: 'Rs '}}</span>
                                         </li>
                                     </ul>
-                          </div>
                         </div>
+
+                         <div  class="col-lg-6" id="nonveg-maincourse">
+                                    <h4>Non-Veg Section</h4>
+                                    <ul style="text-align:left !important;padding-left:0px;">
+                                        <li class="checkbox checkbox-success" ng-repeat="item in menuData.menu.category.nonvegmaincourse">
+                                            <input type="checkbox" id="{{item.name}}" ng-model="item.checkState" ng-change="abc(item)" ng-value="item.itemId">
+                                            <label for="{{item.name}}">{{item.name}}</label>
+											<span style="float:right">{{item.price | currency: 'Rs '}}</span>
+                                        </li>
+                                    </ul>
+                        </div>
+
+
+
+                    </div>
                 </div>
             </div>
         </div>        <div class="row">
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center textB"><strong>Welcome to CCD</strong>
+                    <h2 class="intro-text text-center textB"><strong>Breads</strong>
                     </h2>
                     <hr>
-                    <img class="img-responsive img-border " src="img/CafeCoffeeDay.jpg" alt="">
-                    <hr class="visible-xs">
+										<div style="padding-bottom:35px;">
+                    <img class="img-responsive img-border " width="330px" height="230px" src="img/indianbreads.jpeg" alt="">
+									</div>
+										<hr class="visible-xs">
                          <div class="col-lg-12">
-
-
-                                    <div  class="col-lg-4" id="ccd" >
-                                    <h4>Caffine Special</h4>
-                                    <ul style="text-align:left !important">
-                                        <li class="checkbox checkbox-success" ng-repeat="item in menuData" ng-if="item.shopName == 'Bikano'">
-                                            <input type="checkbox" id={{item.itemId}} ng-model="item.checkbox" ng-change="checkboxSelectionEvent(item)" ng-value="item.itemId">
-                                                <label for="{{item.itemId}}">{{item.itemName}} | {{item.price}} | {{item.itemId}}</label>
+                                    <div class="col-lg-12">
+                         <div  class="col-lg-6" id="breads" >
+                                    <h4>Breads</h4>
+                                    <ul style="text-align:left !important;padding-left:0px;border-right:1px solid #ccc">
+                                        <li class="checkbox checkbox-success" ng-repeat="item in menuData.menu.category.bread">
+                                            <input type="checkbox" id="{{item.name}}" ng-model="item.checkState" ng-change="abc(item)">
+                                                <label for="{{item.name}}"><span>{{item.name}}</span></label>
+												<span style="float:right;padding-right:50px;">{{item.price | currency: 'Rs '}}</span>
                                         </li>
                                     </ul>
+                        </div>
+
+                         <div  class="col-lg-6" id="sidder">
+                                    <h4>Sidders</h4>
+                                    <ul style="text-align:left !important">
+                                        <li class="checkbox checkbox-success" ng-repeat="item in menuData.menu.category.sidder">
+                                            <input type="checkbox" id={{item.name}} ng-model="item.checkState" ng-change="abc(item)">
+                                            <label for="{{item.name}}">{{item.name}}</label>
+											<span style="float:right">{{item.price | currency: 'Rs '}}</span>
+                                        </li>
+                                    </ul>
+
+
+
+
+                    </div>
 
                         </div>
                     </div>
@@ -174,11 +217,8 @@
                 </div>
             </div>
         </div-->
-		 <div>
-                    <h1 style="color:white;float:left;font-weight:700" class="dTop150">Proceed To Check Out</h1>
-                </div>
 
-                <div style="float:right" class="box col-lg-4" >
+                <div class="box col-lg-12" >
 
                     <div  id="TotalBill" class="col-lg-12">
                                         <h3 class="text-center">Checkout</h3>
@@ -193,25 +233,27 @@
                                             </thead>
                                             <tbody>
                                                 <tr ng-repeat="checkout in items">
-                                                    <td>{{checkout.itemName}}</td>
+                                                    <td>{{checkout.name}}</td>
                                                     <td><select min="1" style="width:60px" ng-model="checkout.quantity"  ng-change="updateQuantity(checkout)">
-															<option value="1">1</option>
-															<option value="2">2</option>
-															<option value="3">3</option>
-															<option value="4">4</option>
-															<option value="5">5</option>
-															<option value="6">6</option>
-															<option value="7">7</option>
-															<option value="8">8</option>
-															<option value="9">9</option>
-															<option value="10">10</option>
-														</select></td>
+																											<option value="1">1</option>
+																											<option value="2">2</option>
+																											<option value="3">3</option>
+																											<option value="4">4</option>
+																											<option value="5">5</option>
+																											<option value="6">6</option>
+																											<option value="7">7</option>
+																											<option value="8">8</option>
+																											<option value="9">9</option>
+																											<option value="10">10</option>
+
+																										</select></td>
                                                     <td>{{checkout.price}}</td>
-                                                    <td ng-model="checkout.totalPrice">{{checkout.price * checkout.quantity}}</td>
+
+                                                    <td ng-model="checkout.totalPrice"><b>{{checkout.price * checkout.quantity}}</b></td>
                                                 </tr>
                                                 <tr><td>Total Price</td><td>{{total}}</td></tr>
                                                 <tr>
-                                                  <td><button class="btn btn-primary" data-toggle="modal" data-target="#myModal" data-modal-id="modal-register" ng-click="checkoutOrder()" ng-disabled="isDisabled">Checkout</button></td>
+                                                  <td><button class="btn btn-primary" ng-click="checkoutOrder()" ng-disabled="isDisabled">Place Order</button></td>
                                                 </tr>
                                             </tbody>
 

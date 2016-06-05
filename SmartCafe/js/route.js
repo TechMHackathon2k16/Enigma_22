@@ -11,19 +11,19 @@ var module = angular.module("MoboCafe", ['ngRoute','moboSessionKeeper']);
                     templateUrl: 'partials/menu.html',
                     controller: 'menuController'
                 }).
-				        when('/paymentSuccess', {
+				when('/paymentSuccess', {
                     templateUrl: 'partials/paymentSuccess.html',
                     controller: 'paymentSuccessController'
                 }).
-				       when('/vendor', {
+				when('/vendor', {
                     templateUrl: 'partials/Vendor.html',
                     controller: 'vendorController'
                 }).
-				      when('/orderDetail', {
+				when('/orderDetail', {
                     templateUrl: 'partials/orderDetail.html',
                     controller: 'orderDetailController'
                 }).
                 otherwise({
-                    redirectTo: '/login'
+                    redirectTo: '/menu'
                 });
         });
